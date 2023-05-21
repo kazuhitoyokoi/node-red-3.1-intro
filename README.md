@@ -1,6 +1,7 @@
-# Node-RED新機能紹介
+# Node-RED v3.1新機能紹介
 
 ## 自己紹介
+- 横井 一仁 (よこい かずひと)
 
 ## Open Source Summit North Americaで登壇してきました
 
