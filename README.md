@@ -2,12 +2,14 @@
 marp: true
 ---
 # Node-RED v3.1新機能紹介
-
+ 2023年5月
+---
 ## 自己紹介
 - 横井 一仁 (よこい かずひと)
-
-## Open Source Summit North Americaで登壇してきました
-
+![w:100](https://nodered.jp/images/yokoi.jpg)
+---
+# Open Source Summit North Americaで登壇してきました
+- 
 ## Mermaid図サポート
 
 ## インライン画像サポート
