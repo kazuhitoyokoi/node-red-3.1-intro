@@ -1,0 +1,15 @@
+name: CI
+on:
+  push:
+    branches: [ "main" ]
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+      - name: Run a one-line script
+        run: |
+          npx -y @marp-team/marp-cli README.md -o docs/index.htm
+          git add docs/*
+          git commit -m "Update generated HTML file"
+          git push
