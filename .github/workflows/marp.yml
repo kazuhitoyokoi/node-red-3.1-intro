@@ -10,6 +10,7 @@ jobs:
       - name: Run a one-line script
         run: |
           npx -y @marp-team/marp-cli README.md -o docs/index.htm
+          git pull
           git config --global user.email "kazuhitoyokoi@nodered.jp"
           git config --global user.name "Kazuhito Yokoi"
           git add docs/*
