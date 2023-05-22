@@ -1,6 +1,8 @@
 ---
 marp: true
 ---
+https://kazuhitoyokoi.github.io/node-red-3.1-intro
+
 # Node-RED v3.1新機能紹介
 ---
 ## 自己紹介
