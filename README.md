@@ -25,7 +25,7 @@ https://kazuhitoyokoi.github.io/node-red-3.1-intro
  - ノードをつくるハンズオンの<br>内容を発表
  - OpenJS Foundationトップの<br>Robin様にも挨拶できました
 ![w:640 bg right vertical](https://pbs.twimg.com/media/Fv4TUloWAAIEmuw?format=jpg)
-![bg right vertical](robin.jpg)
+![bg right vertical](https://github.com/kazuhitoyokoi/node-red-3.1-intro/blob/main/robin.jpg?raw=true)
 
    セッションページ: https://sched.co/1K5CB
 
