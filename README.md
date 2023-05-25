@@ -91,11 +91,11 @@ MarkdownエディタにMermaidを用いて図を作成し、左側の説明タ�
 ---
 ## プロジェクト機能の修正
  - デフォルトのフローファイル名をflow.jsonからflows.jsonに変更
-   コマンド引数へのフローファイル名の指定が不要になったため、
-   package.jsonに下記を記載するだけでnpm startで起動できる
-```
- "scripts": { "start": "node-red" },
-```
+   - 引数へフローファイル名を指定する必要がなくなった
+   - package.jsonに`"scripts": { "start": "node-red" },`を記載するだけでnpm startコマンドでアプリケーションを起動できるようになった
+
+    
+  
  - ブランチ名をmasterからmainに変更
  - メニューやダイアログの不具合修正
 
@@ -106,9 +106,9 @@ MarkdownエディタにMermaidを用いて図を作成し、左側の説明タ�
    - 値の移動の時:<br>"対象の値"->"移動先"
 ![w:600 bg right vertical](https://pbs.twimg.com/media/FgjmyhLaUAAZGoL?format=jpg&name=medium)
 
- - 新機能を紹介するツアーも和訳
+ - 新機能を紹介するツアーも和訳済
 
 ---
 ## 最後に
- - Node-RED v3.1では、日本からの要望を取り込んだリリース
- - 今後も、日本から世界へ発信してゆきましょう🇯🇵
+ - Node-RED v3.1では、日本からの要望を取り込んだリリース🇯🇵
+ - 今後も、皆で日本から世界へ発信してゆきましょう💪
