@@ -22,8 +22,8 @@ https://kazuhitoyokoi.github.io/node-red-3.1-intro
 
 ---
 # Open Source Summit North Americaで<br>登壇してきました🇨🇦
- - ノードをつくるハンズオンの<br>内容を発表
- - OpenJS Foundationトップの<br>Robin様にも挨拶できました
+ - 「ノードをつくるハンズオン」の内容を発表
+ - OpenJS FoundationトップのRobin様にも挨拶できました
 ![w:640 bg right vertical](https://pbs.twimg.com/media/Fv4TUloWAAIEmuw?format=jpg)
 ![bg right vertical](https://github.com/kazuhitoyokoi/node-red-3.1-intro/blob/main/robin.jpg?raw=true)
 
@@ -40,12 +40,12 @@ https://kazuhitoyokoi.github.io/node-red-3.1-intro
 ![bg right](https://pbs.twimg.com/media/FplCZZnaUAcopKn?format=jpg&name=large)
 
 ---
-# 私からご紹介するNode-RED v3.1の新機能
+# ご紹介するNode-RED v3.1の新機能
  - ノードの説明タブにMermaid図を表示
  - ノードの説明タブにインライン画像を追加
  - グローバル環境変数
  - プロジェクト関連の修正
- - 日本語訳
+ - フローエディタの和訳を修正
 
 ---
 # Mermaidとは
@@ -58,7 +58,7 @@ https://kazuhitoyokoi.github.io/node-red-3.1-intro
 
 ---
 # ノードの説明タブにMermaid図を表示
-MarkdownエディタでMermaid記法を用いて、左側の説明タブに図を表示できる
+MarkdownエディタにMermaidを用いて図を作成し、左側の説明タブに表示
 - ノードの説明以外でも利用可能
   - フローの説明書き
   - グループの説明書き
@@ -82,21 +82,33 @@ MarkdownエディタでMermaid記法を用いて、左側の説明タブに図�
 
 ---
 ## グローバル環境変数
-hoge
-![w:600 bg right](https://user-images.githubusercontent.com/30289092/210725017-0f55c9f3-1bef-438c-be53-ce0a3b158be6.gif)
+フローエディタの全てのノードから参照できる共通の変数を設定する機能
+ - ユーザ設定にグローバル環境変数を設定できるタブが存在
+ - サブフロー、グループ、タブ、<br>グローバル環境変数、OSの順に<br>最初に見つかった環境変数を使用
 
-![w:600 bg right](https://camo.qiitausercontent.com/1da920248905bd1814f2ef607d715d2f7898968d/68747470733a2f2f71696974612d696d6167652d73746f72652e73332e61702d6e6f727468656173742d312e616d617a6f6e6177732e636f6d2f302f3534363231372f36333735643039392d616230312d366537392d633931642d3761656132646331646264612e706e67)
+![w:600 bg right vertical](https://user-images.githubusercontent.com/30289092/199946744-099b33aa-d150-4fc8-924f-4ffe9d498494.png)
 
 ---
 ## プロジェクト機能の修正
- - デフォルトのフローファイル名がflow.jsonからflows.jsonに変更
- - node-redコマンドでフローを指定しなくても起動できるようになった。
+ - デフォルトのフローファイル名をflow.jsonからflows.jsonに変更
+   コマンド引数へのフローファイル名の指定が不要になったため、
+   package.jsonに下記を記載するだけでnpm startで起動できる
+```
+ "scripts": { "start": "node-red" },
+```
+ - ブランチ名をmasterからmainに変更
+ - メニューやダイアログの不具合修正
 
 ---
-## 日本語訳
- - プロジェクト
-![w:600 bg right](https://user-images.githubusercontent.com/30289092/210725017-0f55c9f3-1bef-438c-be53-ce0a3b158be6.gif)
+## フローエディタの和訳を修正
+ - changeノードのプロパティ
+   - 値の代入の時:<br>"対象の値"->"代入する値"
+   - 値の移動の時:<br>"対象の値"->"移動先"
+![w:600 bg right vertical](https://pbs.twimg.com/media/FgjmyhLaUAAZGoL?format=jpg&name=medium)
+
+ - 新機能を紹介するツアーも和訳
 
 ---
 ## 最後に
- - Node-RED v3.1
+ - Node-RED v3.1では、日本からの要望を取り込んだリリース
+ - 今後も、日本から世界へ発信してゆきましょう🇯🇵
